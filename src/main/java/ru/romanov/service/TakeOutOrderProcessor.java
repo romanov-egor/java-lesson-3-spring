@@ -1,9 +1,10 @@
 package ru.romanov.service;
 
+import org.springframework.stereotype.Service;
 import ru.romanov.dto.OrderDto;
 import ru.romanov.enumiration.OrderType;
-import ru.romanov.service.OrderProcessor;
 
+@Service
 public class TakeOutOrderProcessor implements OrderProcessor {
 
     @Override
